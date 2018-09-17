@@ -2,6 +2,11 @@ body
 {
   text-align: center;
 }
+img{
+  width: 50%
+  border:0;
+  align-items: right
+}
 p{
   color: #666666;
   font-family: Helvetica, Arial, sans-serif;
@@ -9,17 +14,3 @@ p{
 li{
   text-align: center;
 }
-img{
-  width: 50%
-  border:0;
-  align-items: right
-}
-<head>
-<style>
-img {
-    max-width: 100%;
-    height: auto;
-}
-</style>
-</head>
-<body>
