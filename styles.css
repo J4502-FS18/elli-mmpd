@@ -12,6 +12,8 @@ p{
   font-family: Helvetica, Arial, sans-serif;
 }
 li{
+  align-items: center;
+  align-content: center;
   text-align: center;
   list-style-type: none;
   text-align:center;
