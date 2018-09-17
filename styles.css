@@ -14,3 +14,9 @@ p{
 li{
   text-align: center;
 }
+#container{
+  background-color:#ffffff;
+  width:95%;
+  margin:0 auto;
+  padding:10px 25px;
+}
