@@ -6,4 +6,27 @@ img{
   width: 50%
   border:0;
   align-items: center;
+}nav li{
+  list-style-type: none;
+  text-align:center;
+  width: 100%;
+  padding: 5px;
+  background-color:#98bf21;
+  margin: 0 auto;
+  border-bottom: 1px;
+  border: 2px solid #ffffff;
+}
+
+nav ul {
+  padding:0;
+}
+
+nav a:link, nav a:visited{
+  color:#ffffff;
+  background-color: #98bf21;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 1px;
 }
