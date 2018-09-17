@@ -19,10 +19,8 @@ p{
 li{
   text-align: center;
   list-style-type: none;
-  text-align:center;
   max-width: 100%;
   padding: 5px;
-  padding-right: 10px;
   background-color:#FFD3F0;
   margin: 0 auto;
   border-bottom: 1px;
@@ -43,4 +41,14 @@ ul{
 }
 body{
   background-color:#BEFFE5;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    font-weight: lighter;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #9A9E9A;
 }
