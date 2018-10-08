@@ -54,10 +54,10 @@ a:hover {
 }
 #nav {
 	display: flex;
-	flex-direction:column;
+	flex-direction:row;
 }
 @media (min-width: 599px) {
 	.container {
-		flex-direction:row;
+		flex-direction:column;
 	}
 }
