@@ -42,26 +42,6 @@ ul{
   border: 2px solid #ffffff;
   display: inline;
 
-  .container {
-  	display: flex;
-  	flex-direction: column;
-  }
-
-  @media (min-width: 600px) {
-  	.container {
-  		flex-direction: row;
-  		justify-content: center;
-  	}
-  }
-
-  @media (min-width: 800px) {
-
-  	.item-1 {
-  		margin-right: auto;
-  	}
-  }
-
-}
 body{
   background-color:#BEFFE5;
 }
@@ -71,4 +51,22 @@ a:link {
 a:hover {
     text-decoration: underline;
     text-decoration-color: #9A9E9A;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 600px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 800px) {
+
+	.item-1 {
+		margin-right: auto;
+	}
 }
