@@ -55,13 +55,15 @@ a:hover {
     text-decoration-color: #9A9E9A;
 }
 #nav {
-	display: flex;
-	flex-direction:column;
-  justify-content:center;
-  align-items: center;
+	padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
+
 @media (min-width: 599px) {
-	.container {
+	#nav {
 		flex-direction:row;
+    justify-content: space-around;
 	}
 }
