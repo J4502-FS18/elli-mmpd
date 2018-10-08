@@ -56,12 +56,12 @@ a:hover {
 }
 #nav {
 	display: flex;
-	flex-direction:row;
+	flex-direction:column;
   justify-content:center;
   align-items: center;
 }
 @media (min-width: 599px) {
 	.container {
-		flex-direction:column;
+		flex-direction:row;
 	}
 }
