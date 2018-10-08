@@ -55,7 +55,6 @@ a:hover {
 .container {
 	display: flex;
 	flex-direction: row;
-  justify-content:space-around;
 }
 @media (min-width: 600px) {
 	.container {
