@@ -27,8 +27,8 @@ li{
   border: 2px solid #ffffff;
   font-family: Georgia, "Times New Roman", serif;
   display: inline;
-
 }
+
 ul{
   align-content: center;
   text-align: center;
@@ -41,7 +41,7 @@ ul{
   border-bottom: 1px;
   border: 2px solid #ffffff;
   display: inline;
-
+}
 body{
   background-color:#BEFFE5;
 }
@@ -56,16 +56,3 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 }
-
-@media (min-width: 600px) {
-	.container {
-		flex-direction: row;
-		justify-content: center;
-	}
-}
-
-@media (min-width: 800px) {
-
-	.item-1 {
-		margin-right: auto;
-	}
