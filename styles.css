@@ -61,9 +61,22 @@ a:hover {
   flex-direction: column;
 }
 
-@media (min-width: 599px) {
+@media (min-width: 600px){
 	#nav {
 		flex-direction:row;
     justify-content: space-around;
 	}
+}
+
+.grid {
+  max-width: 1500px;
+  display: grid;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-column-start: 5;
+  grid-column-end:2;
 }
