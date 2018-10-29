@@ -106,21 +106,21 @@ a:hover {
 	}
 }
 
-.img {
+.image {
   display: grid;
   max-width: 1280px;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 25% 25% 25% 25%;
 }
 
-.img {
+.image {
   display: flex;
   list-style-type: none;
   flex-direction: column;
 }
 
 @media (min-width: 600px){
-	.img{
+	.image{
 		flex-direction:row;
     justify-content: space-around;
 	}
