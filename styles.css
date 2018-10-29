@@ -77,6 +77,12 @@ a:hover {
   grid-column-end:2;
 }
 
+.grid {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+}
+
 @media (min-width: 600px){
 	.grid{
 		flex-direction:row;
@@ -91,4 +97,31 @@ a:hover {
   grid-template-rows: 20% 20% 20% 20% 20%;
   grid-column-start: 5;
   grid-column-end:2;
+}
+
+@media (min-width: 600px){
+	.joke{
+		flex-direction:row;
+    justify-content: space-around;
+	}
+}
+
+.img {
+  display: grid;
+  max-width: 1280px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.img {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+@media (min-width: 600px){
+	.img{
+		flex-direction:row;
+    justify-content: space-around;
+	}
 }
